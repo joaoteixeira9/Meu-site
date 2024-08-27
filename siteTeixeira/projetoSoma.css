@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.969);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(img/FundoSite.jpg);
+    width: 100%;
+    height: 10vh;
+    color: rgb(54, 81, 163);
+    cursor: context-menu;
+}
+#imagemArrumandoHost:not(:hover){
+    width: 80px;
+    height: 80px;
+    border: 3.5px solid aliceblue;
+    border-radius: 50px;
+    margin: 2%;
+}
+#imagemArrumandoHost:hover{
+    width: 80px;
+    height: 80px;
+    border: 3.5px solid #7300ab;
+    border-radius: 50px;
+    margin: 2%;
+    cursor: pointer;
+}
+#senaclogo{
+    width: 10vw;
+    height: 15vh;
+}
+#somalogo{
+    width: 10vw;
+    height: 7vh;
+}
+h1{
+    font-size: x-large;
+    margin-top: 1%;
+    color: rgb(54, 81, 163);
+    margin-left: 1%;
+    background-color: rgba(0, 0, 0, 0.969);
+    cursor: context-menu;
+}
+p{
+    color: aliceblue;
+    margin: 15px;
+    background-color:  rgba(0, 0, 0, 0.969);
+    cursor: context-menu;
+}
+main{
+    background-color:  rgba(0, 0, 0, 0.969);
+    cursor: context-menu;
+}
+footer{
+    background-image: url(img/fundoSite.jpg);
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-around;
+}
+.inicioFooter, .sobreMimFooter, .projetosFooter, .contatosFooter{
+    margin-top: 1%;
+}
+footer h4{
+    color: rgb(83, 83, 83);
+    margin-top: 2%;
+    cursor: context-menu;
+    font-weight: 300;
+}
+footer h5 a{
+    text-decoration: none;
+}
+.contatosFooter img{
+    width: 4vh;
+    height: 4vh;
+    margin-right: 3px;
+}
+.contatosFooter h5{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+
+}
+.sobreMimFooter h5{
+    text-transform: none;
+    cursor: context-menu;
+    color: aliceblue;
+
+}
+.inicioFooter h5{
+    cursor: context-menu;
+    color: aliceblue;
+
+}
+.projetosFooter h5 a{
+    color: rgb(54, 81, 163);
+}
+
+/* CELULAR */
+@media only screen and (max-width: 1200px) {
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-image: url(img/FundoSite.jpg);
+        width: 100%;
+        height: 6vh;
+        color: rgb(54, 81, 163);
+        cursor: context-menu;
+    }
+    #imagemArrumandoHost:not(:hover){
+        width: 40px;
+        height: 40px;
+        border: 1.5px solid aliceblue;
+        border-radius: 50px;
+        margin: 2%;
+    }
+    #imagemArrumandoHost:hover{
+        width: 40px;
+        height: 40px;
+        border: 3.5px solid #7300ab;
+        border-radius: 50px;
+        margin: 2%;
+        cursor: pointer;
+    }
+    #senaclogo{
+        width: 25vw;
+        height: 7vh;
+    }
+    #somalogo{
+        width: 25vw;
+        height: 4vh;
+    }
+    h2{
+        font-size: medium;
+    }
+    footer{
+        background-image: url(img/fundoSite.jpg);
+        background-position: unset;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 15vh;
+        display: flex;
+        text-transform: capitalize;
+        justify-content: center;
+    }
+    .inicioFooter, .sobreMimFooter, .projetosFooter, .contatosFooter{
+        margin-top: 1%;
+    }
+    footer h4{
+        color: rgb(83, 83, 83);
+        margin-top: 2%;
+        cursor: context-menu;
+        font-weight: 300;
+        margin-left: 10%;
+    }
+    footer h5 a{
+        text-decoration: none;
+    }
+    .contatosFooter img{
+        width: 4vh;
+        height: 4vh;
+        margin-left: 15%;
+    }
+    .contatosFooter h5{
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+    }
+    .sobreMimFooter h5{
+        text-transform: none;
+        cursor: context-menu;
+        font-size: smaller;
+        width: 15vh;
+        margin-left: 5%;
+    }
+    .inicioFooter h5{
+        cursor: context-menu;
+        font-size: smaller;
+        margin-left: 10%;
+    }
+    .projetosFooter h5 a{
+        color: rgb(54, 81, 163);
+        font-size: small;
+    }
+}
